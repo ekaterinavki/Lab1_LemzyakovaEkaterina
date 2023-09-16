@@ -25,6 +25,7 @@ class Program
         Console.ReadKey();
     }
 
+    //метод считывания логина с консоли и проверка его правильности
     static string GetValidLogin()
     {
         Console.WriteLine("Введите логин:");
@@ -83,6 +84,7 @@ class Program
         return true;
     }
 
+    //метод считывания пароля с консоли и проверка его правильности
     static string GetValidPassword()
     {
         Console.WriteLine("Введите пароль:");
@@ -106,6 +108,7 @@ class Program
         return Regex.IsMatch(password, pattern);
     }
 
+    //метод который считывает подтверждение пароля с консоли и проверяет его совпадение с введенным паролем
     static string GetConfirmPassword(string password)
     {
         Console.WriteLine("Подтвердите пароль:");
@@ -122,7 +125,7 @@ class Program
         }
     }
 
-    //сообщения об ошибке во время регистрации
+    //метод который возвращает сообщение об ошибке при регистрации
     static string GetRegistrationErrorMessage(string password, string confirmPassword)
     {
         string errorMessage = "";
@@ -138,6 +141,7 @@ class Program
         return errorMessage;
     }
 
+    //Методы записывающие информацию о регистрации в файл и выводят ее на консоль
     static void LogSuccessfulRegistration(string login, string password, string confirmPassword)
     {
         string logMessage = string.Format("{0} - {1} - {2} - {3} - Успешная регистрация",
