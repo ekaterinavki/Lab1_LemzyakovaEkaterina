@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lab1.1\\Lab1.1.csproj": {}
+    "D:\\Lab1_LemzyakovaEkaterina\\Labr1.csproj": {}
   },
   "projects": {
-    "D:\\Lab1.1\\Lab1.1.csproj": {
+    "D:\\Lab1_LemzyakovaEkaterina\\Labr1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lab1.1\\Lab1.1.csproj",
-        "projectName": "Lab1.1",
-        "projectPath": "D:\\Lab1.1\\Lab1.1.csproj",
+        "projectUniqueName": "D:\\Lab1_LemzyakovaEkaterina\\Labr1.csproj",
+        "projectName": "Labr1",
+        "projectPath": "D:\\Lab1_LemzyakovaEkaterina\\Labr1.csproj",
         "packagesPath": "C:\\Users\\lemzy\\.nuget\\packages\\",
-        "outputPath": "D:\\Lab1.1\\obj\\",
+        "outputPath": "D:\\Lab1_LemzyakovaEkaterina\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lemzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
